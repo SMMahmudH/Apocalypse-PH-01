@@ -15,8 +15,8 @@
 
 header
 {
-    min-width: 1440;
-    min-height: 698;
+    /* min-width: 1440px;
+    min-height: 698px; */
     background-image: url(../Assets/Hero-bg.png);
     
 }
@@ -50,13 +50,15 @@ button a
 
 .head-middle
 {
-    width: 905px;
-    height: 152px;
+    padding-top: 40px;
+    align-content: center;
+    text-align: center;
+    /* width: 905px;
+    height: 152px; */
     font-size: 65px;
     font-weight: bold;
     color: #252432;
-    align-content: center;
-    text-align: center;
+    padding-bottom: 100px;
 }
 
 .btn
@@ -68,15 +70,165 @@ button a
     border-radius: 10px;
 }
 
-.btn-mid
+.btn-up
 {
     width: 132px;
     height: 48px;
-    gap: 16px;
 }
 
 .btn-mid
 {
+    margin-top: 50px;
     width: 174px;
     height: 48px;
+}
+
+
+.action
+{
+    display: flex;
+    justify-content: space-around;
+    /* align-content: center; */
+    text-align: left;
+    align-items: center;
+    margin: 5%;
+}
+
+
+.action-left
+{
+    width: 517px;
+    height: 203px;
+}
+
+.action-head
+{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.action-para
+{
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+}
+
+img
+{
+    width: auto;
+    height: auto;
+    border-radius: 48px;
+}
+
+.pro-user
+{
+    background-color: rgb(78, 71, 255, .1);
+    /* width: 60%; */
+    margin: 10%;
+    margin-top: 5%;
+    padding: 2%;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+    border-radius: 24px;
+}
+
+.user
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+
+}
+
+.user-count
+{
+    align-content: center;
+}
+
+.user-count h1
+{
+    font-size: 80px;
+    margin: 0%;
+    color: #4E47FF;
+}
+
+.user-count p
+{
+    color: rgb(0,0,0,.5);
+    margin: 0%;
+    font-size: 20px;
+}
+
+.pro-user h3
+{
+    margin-top: 0%;
+    font-size: 38px;
+    color: #252432;
+    font-weight: bold;
+}
+
+.user-say h3
+{
+    margin-top: 0%;
+    font-size: 42px;
+    color: #252432;
+    font-weight: bold;
+    text-align: center;
+}
+
+.all-comments
+{
+    display: flex;    
+    justify-content: center;
+    gap: 10px;
+}
+
+.comment-card
+{
+    background-color: rgba(185, 245, 255, 0.5);
+    border-color: #F2EDED;
+    border-style: solid;
+
+    width: auto;
+    color: #1E1E1E;
+    border-radius: 24px;
+    padding: 0px 20px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.comment-card-p1
+{
+    padding-left: 0px;
+    display: flex;
+    list-style: none;
+}
+
+.comment-card-p2
+{
+    padding-left: 15px;
+    list-style: none;
+}
+
+.review-name
+{
+    color: #757575;
+    font-weight: bolder;
+}
+
+.review-date
+{
+    color: #B3B3B3;
+    font-weight: 400;
+}
+
+.icon-star
+{
+    display: flex;
+    list-style: none;
+    padding: 0px;
 }
